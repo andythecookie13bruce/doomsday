@@ -10,7 +10,7 @@ public class Wallpaper {
 "@
 
 Add-Type $code
-$path = "$env:USERPROFILE\Desktop\doomsdaysday.png"
+$path = "$env:USERPROFILE\Desktop\creepy.png"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/andythecookie13bruce/doomsday/main/creepy.png" -OutFile $path
 [Wallpaper]::SystemParametersInfo(20, 0, $path, 3)
 
