@@ -151,5 +151,5 @@ Start-Job {
 }
 
 # ⏳ Wait 4 minutes, then shutdown
-Start-Sleep -Seconds 240
+Start-Sleep -Seconds 130
 Stop-Computer -Force
