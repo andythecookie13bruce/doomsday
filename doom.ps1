@@ -1,5 +1,5 @@
 
-# Set creepy.png as the desktop background
+# Set doomsday.jpg as the desktop background
 $code = @"
 using System.Runtime.InteropServices;
 
@@ -10,8 +10,8 @@ public class Wallpaper {
 "@
 
 Add-Type $code
-$path = "$env:USERPROFILE\Desktop\creepy.png"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/andythecookie13bruce/doomsday/main/creepy.png" -OutFile $path
+$path = "$env:USERPROFILE\Desktop\doomsday.jpg"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/andythecookie13bruce/doomsday/main/doomsday.jpg" -OutFile $path
 [Wallpaper]::SystemParametersInfo(20, 0, $path, 3)
 
 
@@ -83,7 +83,7 @@ $html = @"
     body {
       margin: 0;
       overflow: hidden;
-      background: url('https://raw.githubusercontent.com/andythecookie13bruce/doomsdaysday/main/doomsdaysday.png') no-repeat center center fixed;
+      background: url('https://raw.githubusercontent.com/andythecookie13bruce/doomsdaysday/main/doomsdaysday.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #ff0000;
       font-family: 'Creepster', 'UnifrakturCook', cursive;
