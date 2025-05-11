@@ -83,7 +83,7 @@ $html = @"
     body {
       margin: 0;
       overflow: hidden;
-      background: url('https://raw.githubusercontent.com/andythecookie13bruce/doomsdaysday/main/doomsday.jpg') no-repeat center center fixed;
+      background: url('https://raw.githubusercontent.com/andythecookie13bruce/doomsday/main/doomsday.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #ff0000;
       font-family: 'Creepster', 'UnifrakturCook', cursive;
